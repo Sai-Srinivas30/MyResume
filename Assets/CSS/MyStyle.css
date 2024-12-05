@@ -1,0 +1,187 @@
+body {
+    background-color: #f8f9fa;
+    background-image: url('../img/abstract_gradient_circle_banner_design_2103.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #6c757d;
+}
+.name-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.name-section h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #6c757d;
+}
+.contact-info p {
+    margin: 0;
+    font-size: 1rem;
+}
+.left-section {
+    padding: 20px;
+}
+.left-section h3 {
+    margin-top: 30px;
+    color: #343a40;
+    font-weight: bold;
+}
+.right-section {
+    position: sticky;
+    top: 20px;
+    padding: 20px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.right-section h4 {
+    color: #343a40;
+    font-weight: bold;
+}
+
+.col-lg-8 left-section  {
+    padding: 20px;
+}
+
+.education-section {
+    font-family: 'Arial', sans-serif;
+    margin-top: 20px;
+}
+.education-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.education-details h5 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 0;
+}
+.education-details p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+.education-duration {
+    font-style: italic;
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+.education-details ul {
+    margin-top: 5px;
+    padding-left: 20px;
+}
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+.card-header {
+    font-weight: bold;
+    height: 5rem;
+    text-align: center;
+    align-content: center;
+    background-color: #f8f9fa;
+}
+.card-text {
+    font-size: 1.3rem;
+    color: #6c757d;
+    height: 4rem;
+    text-align: center;
+    align-content: center;
+}
+.duration {
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #343a40;
+    height: 2rem;
+    text-align: center;
+    align-content: center;
+}
+.card-img-top{
+    width: 24rem;
+    height: 16rem;
+}
+.carousel-item {
+    min-height: 200px; /* Adjust based on content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.job-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #ff6f61  ;
+}
+.company-name {
+    font-size: 1rem;
+    color: #0d6efd;
+}
+.job-duration {
+    font-style: italic;
+    font-size: 0.9rem;
+    color: #00a8ff;
+}
+.job-description {
+    font-size: 0.9rem;
+    margin-top: 10px;
+    color:#dcdde1;
+    text-align: left; 
+    padding-left: 6rem;  
+    padding-right: 4rem;
+}
+
+.carousel-item{
+    align-content: center;
+    background-color: #1c1c1e;
+    text-align: center;
+}
+.accordion-button{
+    background-color: #fafaf8;
+    color: #0d47a1;
+    font-weight: bold;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #64b5f6;
+    color: #ffffff;
+}
+.accordion-body {
+    background-color: #bbdefb;
+    color: #5e3a78;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-attachment: scroll;
+    }
+}
